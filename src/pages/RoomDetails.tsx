@@ -70,7 +70,7 @@ export default function RoomDetails() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-10">
         <div>
           <div className="aspect-w-16 aspect-h-9 mb-8">
             <ImageCarousel 

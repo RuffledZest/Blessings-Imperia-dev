@@ -7,10 +7,13 @@ import RoomDetails from './pages/RoomDetails';
 import Checkout from './pages/Checkout';
 import Auth from './pages/Auth';
 
+import 'react-perfect-scrollbar/dist/css/styles.css';
+
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-50">
+      
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,6 +22,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
         </Routes>
+   
         <Toaster position="top-right" />
       </div>
     </Router>
